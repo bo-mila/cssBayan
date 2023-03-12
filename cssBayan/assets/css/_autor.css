@@ -1,0 +1,92 @@
+.autor {
+  display: flex;
+  cursor: pointer;
+}
+
+.autor__link {
+  display: flex;
+  font-size: 28px;
+  color: var(--light);
+  padding: 25px 15px;
+}
+
+.autor__link div {
+  width: 18px;
+  position: relative;
+}
+
+.autor__link div span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) scale(1);
+  transform-origin: center center;
+}
+
+.autor__link:hover div:first-child span {
+  animation: scale-letter .5s ease 0s;
+}
+
+.autor__link:hover div:nth-child(2) span {
+  animation: scale-letter .5s ease 0.03s;
+}
+
+.autor__link:hover div:nth-child(3) span {
+  animation: scale-letter .5s ease 0.06s;
+}
+
+.autor__link:hover div:nth-child(4) span {
+  animation: scale-letter .5s ease 0.09s;
+}
+
+.autor__link:hover div:nth-child(5) span {
+  animation: scale-letter .5s ease 0.12s;
+}
+
+.autor__link:hover div:nth-child(6) span {
+  animation: scale-letter .5s ease 0.15s;
+}
+
+.autor__link:hover div:nth-child(7) span {
+  animation: scale-letter .5s ease 0.18s;
+}
+
+.autor__link:hover div:nth-child(8) span {
+  animation: scale-letter .5s ease 0.21s;
+}
+
+.autor__link:hover div:nth-child(9) span {
+  animation: scale-letter .5s ease 0.24s;
+}
+
+.autor__link:hover div:nth-child(10) span {
+  animation: scale-letter .5s ease 0.27s;
+}
+
+.autor__link:hover div:nth-child(11) span {
+  animation: scale-letter .5s ease 0.3s;
+}
+
+.autor__link:hover div:nth-child(12) span {
+  animation: scale-letter .5s ease 0.33s;
+}
+
+.autor__link:hover div:nth-child(13) span {
+  animation: scale-letter .5s ease 0.36s;
+}
+
+.autor__link:hover div:nth-child(14) span {
+  animation: scale-letter .5s ease 0.39s;
+}
+
+.autor__link:hover div:nth-child(15) span {
+  animation: scale-letter .5s ease 0.42s;
+}
+
+.autor__link:hover div:nth-child(16) span {
+  animation: scale-letter .5s ease 0.45s;
+}
+
+.autor__link:hover div:nth-child(17) span {
+  animation: scale-letter .5s ease 0.48s;
+}

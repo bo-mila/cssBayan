@@ -1,0 +1,22 @@
+html {
+  --white: #FFFFFF;
+  --black: #000000;
+  --yellow: #f48c42;
+  --grey: #b39d9d;
+  --grey-dark: #B2B2B2;;
+  --light: #FAFAFA;
+  --green: #38ed47;
+  --light-yellow: #dcd3c0;
+  --dark: #151212;
+  --dark-second: #4C4C4C;
+  --body-back: #292929;
+
+  --z-0: 0;
+  --z-1: 1;
+  --z-10: 10;
+
+  --width: 95vw;
+  --max-width: 850px;
+  --width-desc: calc(var(--width) - 14rem);
+  --max-width-desc: calc(var(--max-width) - 14rem);
+}
