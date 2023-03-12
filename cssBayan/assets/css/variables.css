@@ -16,7 +16,7 @@ html {
   --z-10: 10;
 
   --width: 95vw;
-  --max-width: 850px;
+  --max-width: 53.125rem;
   --width-desc: calc(var(--width) - 14rem);
   --max-width-desc: calc(var(--max-width) - 14rem);
 }

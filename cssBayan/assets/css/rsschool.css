@@ -6,14 +6,14 @@
 }
 
 .rsschool__text {
-  margin-right: 30px;
+  margin-right: 1.6rem;
   opacity: .9;
 }
 
 .rsschool__ref {
   opacity: .6;
-  width: 150px;
-  height: 59px;
+  width: 9.2rem;
+  height: 4rem;
   transition: .6s;
 }
 
@@ -26,4 +26,20 @@
   width: 100%;
   height: 100%;
   fill: var(--green);
+}
+
+@media only screen and (max-width: 480px) {
+  .rsschool {
+    font-size: 1.4rem;
+  }
+  
+  
+.rsschool__text {
+  margin-right: 0.9rem;
+}
+  
+  .rsschool__ref {
+    width: 6.8rem;
+    height: 2.2rem;
+  }
 }

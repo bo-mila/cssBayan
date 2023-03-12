@@ -7,11 +7,11 @@
   display: flex;
   font-size: 28px;
   color: var(--light);
-  padding: 25px 15px;
+  padding: 1.5rem 0.95rem;
 }
 
 .autor__link div {
-  width: 18px;
+  width: 1.12rem;
   position: relative;
 }
 
@@ -89,4 +89,17 @@
 
 .autor__link:hover div:nth-child(17) span {
   animation: scale-letter .5s ease 0.48s;
+}
+
+@media only screen and (max-width: 480px) {
+
+  .autor__link {
+    font-size: 25px;
+    padding: 1.2rem 0.8rem;
+  }
+  
+  .autor__link div {
+    width: 1.rem;
+  }
+  
 }
