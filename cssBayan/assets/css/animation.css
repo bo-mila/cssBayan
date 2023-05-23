@@ -1,0 +1,14 @@
+@keyframes scale-letter {
+  0% {
+    transform: translate(-50%,-50%) scale(1);
+    color: var(--light);
+  }
+  40% {
+    transform: translate(-50%,-50%) scale(1.6);
+    color: var(--green);
+  }
+  100% {
+    transform: translate(-50%,-50%) scale(1);
+    color: var(--light);
+  }
+}

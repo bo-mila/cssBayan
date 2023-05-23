@@ -1,0 +1,45 @@
+.rsschool {
+  display: flex;
+  align-items: flex-end;
+  font-size: 28px;
+  color: var(--green);
+}
+
+.rsschool__text {
+  margin-right: 1.6rem;
+  opacity: .9;
+}
+
+.rsschool__ref {
+  opacity: .6;
+  width: 9.2rem;
+  height: 4rem;
+  transition: .6s;
+}
+
+.rsschool__ref:hover {
+  transition: .6s;
+  opacity: 1;
+}
+
+.rsschool__svg {
+  width: 100%;
+  height: 100%;
+  fill: var(--green);
+}
+
+@media only screen and (max-width: 480px) {
+  .rsschool {
+    font-size: 1.4rem;
+  }
+  
+  
+.rsschool__text {
+  margin-right: 0.9rem;
+}
+  
+  .rsschool__ref {
+    width: 6.8rem;
+    height: 2.2rem;
+  }
+}
